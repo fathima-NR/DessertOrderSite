@@ -14,7 +14,7 @@ export const DetaileProd = () => {
   console.log(Data);
 
   useEffect(() => {
-    axios.get(`http://localhost:8000/CategoryVice/${category}`)
+    axios.get(`https://dessertordersite.onrender.com/CategoryVice/${category}`)
       .then((response) => {
         setData(response.data);
       })

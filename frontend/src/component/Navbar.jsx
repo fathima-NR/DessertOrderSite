@@ -62,7 +62,7 @@ function Navbar() {
               {showSearchInput && (
                 <input
                   type="text"
-                  className="form-control mt-2"
+                  className="form-control mt-2 searchsm"
                   placeholder="Search..."
                   style={{ position: 'absolute', top: '50px', right: '50px', zIndex: 1000, width: '250px' }}
                 />

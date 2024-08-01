@@ -25,7 +25,7 @@ const CakeForm = () => {
     };
     console.log(formData); // Replace with your submission logic
 
-axios.post("http://localhost:8000/AddProduct",formData)
+axios.post("https://dessertordersite.onrender.com/AddProduct",formData)
 .then(()=>{
   alert("New Product Added Successfully")
 })

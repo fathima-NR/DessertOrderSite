@@ -13,7 +13,7 @@ export const Cart = ({ Total, CartProduct }) => {
   CartProduct(cakeInfo);
 
   useEffect(() => {
-    axios.get("http://localhost:8000/Cart")
+    axios.get("https://dessertordersite.onrender.com/Cart")
       .then((res) => {
         setCakeInfo(res.data);
         // Call CartProduct after data is fetched
@@ -26,7 +26,7 @@ export const Cart = ({ Total, CartProduct }) => {
   const handleClose = () => setShowModal(false);
 
   const fetchCartData = () => {
-    axios.get("http://localhost:8000/Cart")
+    axios.get("https://dessertordersite.onrender.com/Cart")
       .then((res) => {
         setCakeInfo(res.data);
         // Call CartProduct after data is fetched
@@ -37,7 +37,7 @@ export const Cart = ({ Total, CartProduct }) => {
   };
 
   const DeleteCart = (id) => {
-    axios.delete("http://localhost:8000/deletecard", {
+    axios.delete("https://dessertordersite.onrender.com/deletecard", {
       data: { Pid: id }
     })
     .then((res) => {

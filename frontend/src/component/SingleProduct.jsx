@@ -20,7 +20,7 @@ export const SingleProduct = () => {
   const [timeSlot, setTimeSlot] = useState('morning');
 
   useEffect(() => {
-    axios.get(`http://localhost:8000/SingleProduct/${id}`)
+    axios.get(`https://dessertordersite.onrender.com/SingleProduct/${id}`)
       .then((res) => {
         setProduct(res.data);
       })
@@ -47,7 +47,7 @@ export const SingleProduct = () => {
     console.log("Form Data:", formData);
 
     // Example: Send data to backend (you can modify this as per your backend API)
-    axios.post('http://localhost:8000/Addtocart', formData)
+    axios.post('https://dessertordersite.onrender.com/Addtocart', formData)
       .then((response) => {
         console.log("Successfully added to cart:", response.data);
         // Optionally, perform additional actions after successful addition
@@ -61,6 +61,10 @@ export const SingleProduct = () => {
   if (!product) {
     return <div>Loading...</div>;
   }
+
+  function showAlert() {
+    alert('your order is added into your cart...');
+}
 
   return (
   <>
@@ -121,7 +125,7 @@ export const SingleProduct = () => {
                 </div>
                 <div className="mt-4">
                  
-                  <button className='btn btn-warning btn-lg fw-bold fs-5 p-2 d-block mx-auto w-100' type="submit">
+                  <button onClick={showAlert} className='btn btn-warning btn-lg fw-bold fs-5 p-2 d-block mx-auto w-100' type="submit">
                     Add To Cart
                   </button>
                   

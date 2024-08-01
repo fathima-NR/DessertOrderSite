@@ -40,7 +40,7 @@ function Checkout({ total, CartProduct }) {
     };
 
     axios
-      .post("http://localhost:8000/orderdetails", paymentForm)
+      .post("https://dessertordersite.onrender.com/orderdetails", paymentForm)
       .then((res) => {
         console.log(res.data);
         console.log("orderdetails successfully posted");

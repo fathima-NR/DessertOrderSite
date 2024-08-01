@@ -77,5 +77,8 @@ font-size: 17px;
     top: 11px;
     right: 65px;
   }
+  .searchsm{
+    display: none;
+  }
   /* other styles specific for screens <= 576px */
 }
