@@ -18,7 +18,7 @@ const ContactForm = () => {
         <h1 className={CUS.h1}>Contact Us</h1>
         <p className={CUS.p1}>We would love to hear from you. Share your thoughts and queries with us!</p>
 
-        <div className="row">
+        <div className="row d-flex flex-wrap justify-content-center align-items-center">
           <div className="col-sm-6">
             <div className={CUS.contactform}>
               <form onSubmit={handleSubmit}>
@@ -54,19 +54,19 @@ const ContactForm = () => {
               </form>
             </div>
           </div>
-          <div className='col-sm-4'style={{marginTop:120 }}> 
-<h5 className='fw-bolder'>Yummy cakes Foods Private Limited</h5>
-<p>Registered Address:
+          <div className='col-sm-4 'style={{marginTop:120}}> 
+<h5 className='fw-bolder m-2'>Yummy cakes Foods Private Limited</h5>
+<p className='m-2'>Registered Address:
 32/33 A, Deonar Village Road, Opp. Metal Box Company, Govandi East,
 Mumbai-400088, </p>
-<p>
+<p className='m-2'>
 Grievance & Nodal Officer:
 Ms. Simantini Budukh,
 General Counsel & Company Secretary
-</p><p>
+</p><p className='m-2'>
 Contact Details:
  +91 8182-881881
- contact@theobroma.in</p>
+ contact@yummy.in</p>
         </div>
         </div>
         

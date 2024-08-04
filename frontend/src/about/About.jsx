@@ -51,7 +51,8 @@ function About() {
    <h1 id="h1">About us</h1>
    <p id="p1">Established in Kolkata in 1892, yummy cake is a household name in <br /> India, and one of the country’s leading food products companies. <br /> Our key businesses are in bakery, dairy, and adjacent snacking <br /> categories and our operations span over 80 countries in the world.</p>
 
-   <button className='btn btn-warning btn-sm readmore px-4 '> Read More</button>
+  <button className='btn btn-warning btn-sm mx-auto d-flex justify-content-center align-items-center w-15 fw-bold '> Read More</button>
+  <hr />
 
 
    </div>
@@ -128,7 +129,8 @@ function About() {
   <p id='p1' className='mt-5'>
   Treat yourself to your favourite Theobroma products or surprise your loved ones with an edible gift.
   </p>
-  <button className='btn btn-warning btn-sm readmore px-4 '>Order Now</button>
+  <button className='btn btn-warning btn-sm mx-auto d-flex justify-content-center  w-20 px-4  fw-bold '>Order Now</button>
+  <hr />
 </div>
 
 

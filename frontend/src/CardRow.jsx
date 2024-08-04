@@ -20,7 +20,7 @@ const CardCarousel = () => {
     {
       title: 'Hiroshi ',
       content: 'Thank you for the glorious cake. It was a joy to behold and taste..',
-      imageUrl: 'https://flowera.in/uploads/tempDir/user_img-400X400.png'
+      imageUrl: 'https://raw.githubusercontent.com/fathima-NR/Project-MERN/assets/user_img-400X400.webp'
     },
     {
       title: 'Isabella',

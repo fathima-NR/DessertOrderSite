@@ -72,7 +72,7 @@ cakename:'Cappuccino Cake'
 <h1 className='text-center fw-bold fs-1 p-3'style={{color:"#6C0345",fontFamily:"Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"}}>Speciality Cakes</h1>
 <p className='text-center lh-lg pb-4'style={{letterSpacing:"2px"}}>Our made-to-order range of speciality cakes is here to make any celebration great! <br /> From Theobroma classic cakes to gourmet cakes to customized theme cakes, <br /> we have something for every special occasion.</p>
  </div>
-<div className="row ms-3">
+<div className="row m-3 align-items-center justify-content-center">
   {Scake.map((scake,index)=>(
 
 <div className="col-sm-3 mt-5 ">

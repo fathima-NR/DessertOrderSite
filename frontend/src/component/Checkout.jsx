@@ -79,28 +79,19 @@ function Checkout({ total, CartProduct }) {
                     </div>
                     {/* Contact Number */}
                     <div className="col-md-6">
-                      <label htmlFor="contactNumber" className="form-label">Contact Number *</label>
-                      <div className="input-group input-group-sm">
-                        <div className="input-group-prepend">
-                          <input
-                            type="text"
-                            className="form-control"
-                            style={{ maxWidth: 60 }}
-                            placeholder="+91"
-                            value={contactNumber.slice(0, 3)}
-                            onChange={(e) => setContactNumber(e.target.value)}
-                          />
-                        </div>
-                        <input
-                          type="text"
-                          className="form-control"
-                          placeholder="Enter your mobile number"
-                          value={contactNumber.slice(3)}
-                          onChange={(e) => setContactNumber(e.target.value)}
-                          required
-                        />
-                      </div>
-                    </div>
+  <label htmlFor="contactNumber" className="form-label">Contact Number *</label>
+  <div className="input-group input-group-sm">
+    <input
+      type="text"
+      className="form-control"
+      placeholder="Enter your contact number"
+      value={contactNumber}
+      onChange={(e) => setContactNumber(e.target.value)}
+      required
+    />
+  </div>
+</div>
+
                     {/* Country */}
                     <div className="col-md-6">
                       <label htmlFor="country" className="form-label">Receiver's Country *</label>
@@ -199,27 +190,18 @@ function Checkout({ total, CartProduct }) {
                       </div>
                       {/* Sender's Contact */}
                       <div className="col-md-6">
-                        <label htmlFor="senderContact" className="form-label">Contact Number *</label>
-                        <div className="input-group input-group-sm">
-                          <div className="input-group-prepend">
-                            <input
-                              type="text"
-                              className="form-control"
-                              style={{ maxWidth: 60 }}
-                              placeholder="+91"
-                              value={senderContact.slice(0, 3)}
-                              onChange={(e) => setSenderContact(e.target.value)}
-                            />
-                          </div>
-                          <input
-                            type="text"
-                            className="form-control"
-                            placeholder="Enter your mobile number"
-                            value={senderContact.slice(3)}
-                            onChange={(e) => setSenderContact(e.target.value)}
-                            required
-                          />
-                        </div>
+                      <label htmlFor="senderContact" className="form-label">Contact Number *</label>
+<div className="input-group input-group-sm">
+  <input
+    type="text"
+    className="form-control"
+    placeholder="Enter your contact number"
+    value={senderContact}
+    onChange={(e) => setSenderContact(e.target.value)}
+    required
+  />
+</div>
+
                       </div>
                       {/* Sender's City */}
                       <div className="col-md-6">
