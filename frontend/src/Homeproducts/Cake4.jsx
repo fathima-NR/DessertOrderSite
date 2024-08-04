@@ -7,16 +7,16 @@ import { FaRupeeSign } from "react-icons/fa";
 
 function Cake4() {
     let Cake4 = [
-        {cakeimg:'https://flowera.in/uploads/tempDir/football-cake-for-kids-300X300.jpg',
+        {cakeimg:'https://raw.githubusercontent.com/fathima-NR/Project-MERN/assets/football-cake-for-kids-300X300%20(1).webp',
             cakename:'Football Cake',
             price:'850'
       
           },
-          {cakeimg:'https://flowera.in/uploads/tempDir/Designer-football-cake-300X300.jpg',
+          {cakeimg:'https://raw.githubusercontent.com/fathima-NR/Project-MERN/assets/Designer-football-cake-300X300%20(1).webp',
             cakename: 'Football Cake',
             price:'750'
           },
-          {cakeimg:'https://flowera.in/uploads/tempDir/Simple-Football-Cake-300X300.jpg',
+          {cakeimg:'https://raw.githubusercontent.com/fathima-NR/Project-MERN/assets/Simple-Football-Cake-300X300.webp',
             cakename:'Delicious Cake',
         price:'800'       
       }

@@ -7,7 +7,7 @@ function Product() {
   const [Data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get(`http://localhost:8000/GetAllCategories`)
+    axios.get(`https://dessertordersite.onrender.com/GetAllCategories`)
       .then((response) => {
         setData(response.data);
       })

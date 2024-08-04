@@ -48,7 +48,7 @@ function Home() {
       <div className="col-xl-2 col-lg-4 col-md-4 col-sm-4 mb-4">
         <Link to="/Cake1" className='text-decoration-none' >
         <div className="card card1 mt-3">
-          <img className="card-img-top img-fluid cakeimg-home" src="https://flowera.in/uploads/tempDir/rassscM_06_6662dd87a8be5-350X400.jpg" alt="Cake" />
+          <img className="card-img-top img-fluid cakeimg-home" src="https://raw.githubusercontent.com/fathima-NR/Project-MERN/assets/RaSmalai-Cake--300X300.webp" alt="Cake" />
           <div className="card-body">
             <h6 className="card-title text-center "style={{fontSize:14,fontWeight:900}} >Rasamalai Cake</h6>
           </div>
@@ -58,7 +58,7 @@ function Home() {
       <div className="col-xl-2 col-lg-4 col-md-4 col-sm-4 mb-4">
       <Link to="/Cake2" className='text-decoration-none' >
         <div className="card card1 mt-3">
-          <img className="card-img-top img-fluid cakeimg-home" src="https://flowera.in/uploads/tempDir/chosscM_06_6662f255c8cb6-350X400.jpg" alt="Cake" />
+          <img className="card-img-top img-fluid cakeimg-home" src="https://raw.githubusercontent.com/fathima-NR/Project-MERN/assets/chosscM_06_6662f255c8cb6-350X400%20(1).webp" alt="Cake" />
           <div className="card-body">
             <h6 className="card-title text-center "style={{fontSize:14,fontWeight:900}} >Chocolate Truffle</h6>
           </div>
@@ -68,7 +68,7 @@ function Home() {
       <div className="col-xl-2 col-lg-4 col-md-4 col-sm-4 mb-4">
       <Link to="/Cake3" className='text-decoration-none' >
         <div className="card card1 mt-3">
-          <img className="card-img-top img-fluid cakeimg-home" src="https://flowera.in/uploads/tempDir/2-kg-kitkat-cake-300X300.jpg" alt="Cake" />
+          <img className="card-img-top img-fluid cakeimg-home" src="https://raw.githubusercontent.com/fathima-NR/Project-MERN/assets/2-kg-kitkat-cake-300X300%20(1).webp" alt="Cake" />
           <div className="card-body">
             <h6 className="card-title text-center "style={{fontSize:14,fontWeight:900}} >KitKat Cake</h6>
           </div>
@@ -78,9 +78,9 @@ function Home() {
       <div className="col-xl-2 col-lg-4 col-md-4 col-sm-4 mb-4">
       <Link to="/Cake4" className='text-decoration-none' >
         <div className="card card1 mt-3">
-          <img className="card-img-top img-fluid cakeimg-home" src="https://flowera.in/uploads/tempDir/Designer-football-cake-300X300.jpg" alt="Cake" />
+          <img className="card-img-top img-fluid cakeimg-home" src="https://raw.githubusercontent.com/fathima-NR/Project-MERN/assets/Designer-football-cake-300X300%20(1).webp" alt="Cake" />
           <div className="card-body">
-            <h6 className="card-title text-center "style={{fontSize:14,fontWeight:900}} >Designer Cake</h6>
+            <h6 className="card-title text-center "style={{fontSize:14,fontWeight:900}} >Football Cake</h6>
           </div>
         </div>
         </Link>
@@ -88,7 +88,7 @@ function Home() {
       <div className="col-xl-2 col-lg-4 col-md-4 col-sm-4 mb-4">
       <Link to="/Cake5" className='text-decoration-none' >
         <div className="card card1 mt-3">
-          <img className="card-img-top img-fluid cakeimg-home" src="https://flowera.in/uploads/tempDir/dessscM_06_6662e686bf80b-350X400.jpg" alt="Cake" />
+          <img className="card-img-top img-fluid cakeimg-home" src="https://raw.githubusercontent.com/fathima-NR/Project-MERN/assets/dessscM_06_6662e686bf80b-350X400%20(1).webp" alt="Cake" />
           <div className="card-body">
             <h6 className="card-title text-center "style={{fontSize:14,fontWeight:900}} >Designer Cake</h6>
           </div>
@@ -102,13 +102,13 @@ function Home() {
 {/* safety,delivery */}
 <div className='mt-5'>
 <div className="row mt-5 ">
-  <div className="col-sm-3  d-flex flex-column align-items-center justify-content-center"> < img src="https://flowera.in/uploads/tempDir/higPoint051715953717-200X200.png" alt="" width={60} className=''/>
+  <div className="col-sm-3  d-flex flex-column align-items-center justify-content-center"> < img src="https://raw.githubusercontent.com/fathima-NR/Project-MERN/assets/higPoint051715953717-200X200%20(1).webp" alt="" width={60} className=''/>
     <h5 className=' text-center fw-bold '> Safety And Hygiene</h5>
     <p className='text-center ms-3'style={{fontSize:14}} > Our Bakery & Florist shop takes complete control over safety and hydgeine. We also follow proper covid safety guidelines.</p>
   </div>
   <div className="col-sm-3 d-flex flex-column align-items-center justify-content-center">
 
-<img src="https://flowera.in/uploads/tempDir/higPoint051715953701-200X200.png" alt="" width={60} />
+<img src="https://raw.githubusercontent.com/fathima-NR/Project-MERN/assets/higPoint051715953701-200X200%20(1).webp" alt="" width={60} />
 
 
     <h5 className='text-center fw-bold '>Express 3 Hour Delivery</h5>
@@ -116,7 +116,7 @@ function Home() {
   </div>
   <div className="col-sm-3 d-flex flex-column align-items-center justify-content-center">
   
-<img src="https://flowera.in/uploads/tempDir/higPoint051715953686-200X200.png" alt="" width={60} />
+<img src="https://raw.githubusercontent.com/fathima-NR/Project-MERN/assets/higPoint051715953686-200X200%20(1).webp" alt="" width={60} />
 
 
     <h5 className= ' text-center fw-bold'>Delivery In 500+ Cities</h5>
@@ -124,7 +124,7 @@ function Home() {
   </div>
   <div className="col-sm-3 d-flex flex-column align-items-center justify-content-center">
 
-  <img src="https://flowera.in/uploads/tempDir/higPoint051715953671-200X200.png" alt=""width={60}/>
+  <img src="https://raw.githubusercontent.com/fathima-NR/Project-MERN/assets/higPoint051715953671-200X200%20(1).webp" alt=""width={60}/>
 
     <h5 className='text-center fw-bold'>Midnight Delivery</h5>
     <p className='text-center ms-3' style={{fontSize:14}}>Surprise your loved one with our reliable midnight flower delivery services.</p>

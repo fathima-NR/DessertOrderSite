@@ -10,12 +10,12 @@ const CardCarousel = () => {
     {
       title: 'Hans',
      content: ' The cake was amazing and tasted absolutely delicious!.',
-     imageUrl: 'https://flowera.in/uploads/tempDir/user_img-400X400.png'
+     imageUrl: 'https://raw.githubusercontent.com/fathima-NR/Project-MERN/assets/User%20Avatar-3%20(1).webp'
     },
     {
       title: 'Elena ',
       content: 'It tastes Delicious! It is beautiful! Thanks for all the hard work! .',
-      imageUrl: 'https://flowera.in/uploads/tempDir/user_img-400X400.png'
+      imageUrl: 'https://raw.githubusercontent.com/fathima-NR/Project-MERN/assets/User%20Avatar%20(1).webp'
     },
     {
       title: 'Hiroshi ',
@@ -25,12 +25,12 @@ const CardCarousel = () => {
     {
       title: 'Isabella',
       content: 'Deliciously rich and creamy, every bite was a delight...',
-      imageUrl: 'https://flowera.in/uploads/tempDir/user_img-400X400.png'
+      imageUrl: 'https://raw.githubusercontent.com/fathima-NR/Project-MERN/assets/User%20Avatar-2%20(2).webp'
     },
     {
       title: 'Nikolai ',
       content: 'A heavenly blend of sweetness and texture, truly memorable.',
-      imageUrl: 'https://flowera.in/uploads/tempDir/user_img-400X400.png'
+      imageUrl: 'https://raw.githubusercontent.com/fathima-NR/Project-MERN/assets/User%20Avatar-1%20(1).webp'
     }
   ];
 
