@@ -104,7 +104,7 @@ export const SingleProduct = () => {
                   </div>
                   <div className="col-md-6">
                     <div className="input-group">
-                      <input type="date" className="form-control" id="delivery-date" name="delivery-date" value={deliveryDate} onChange={(e) => setDeliveryDate(e.target.value)} placeholder="Select Delivery Date" aria-describedby="calendar-icon" required />
+                      <input type="date" className="form-control" id="delivery-date" name="delivery-date" value={deliveryDate} onChange={(e) => setDeliveryDate(e.target.value)} placeholder="date" aria-describedby="calendar-icon" required />
                       
                     </div>
                   </div>

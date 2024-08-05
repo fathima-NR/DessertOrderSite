@@ -1,6 +1,6 @@
-/* Custom CSS for CakeCard component */
+/* 
 .card {
-    width: 300px; /* Adjust width as needed */
+    width: 300px; 
     margin: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -38,4 +38,5 @@
   .card-text:last-child {
     margin-bottom: 0;
   }
+   */
   
